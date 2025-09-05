@@ -9,7 +9,7 @@
 <body>
     <section class="conteudo">
         <div class="conteudo-titulo">
-            <img src="ROBERT VINICIUS DE SOUZA GEFFER - unlock.svg" alt="cadeado fechado">
+            <img src="unlock.svg" alt="cadeado fechado">
             <h2 class="titulo-principal">Gerador de Senhas</h2>
             <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
         </div>
@@ -23,14 +23,45 @@
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Número de caracteres</h4>
                     <div class="parametro-senha-botoes">
-                        <button class="parametro-senha__botao">.</button>
+                        <button class="parametro-senha__botao">-</button>
                         <p class="parametro-senha__texto">12</p>
                         <button class="parametro-senha__botao">+</button>
                     </div>
                 </div>
+                 <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Características da Senha</h4>
+                    <div class="parametro-senha-checkbox">
+                        <input type="checkbox" name="maiuscolo" class="checkbox" checked>
+                        <label for="maiuscolo">Letras maiusculas</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input type="checkbox" name="minuscolo" class="checkbox" >
+                        <label for="minuscolo">Letras minuscolas</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input type="checkbox" name="numeros" class="checkbox">
+                        <label for="numeros">Números</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input type="checkbox" name="simbolos" class="checkbox" >
+                        <label for="simbolos">Símbolos</label>
+                    </div>
+
+                </div>
                 <div class="parametro-senha">
-                    
+                    <h4 class="parametro-senha__titulo">Força da senha</h4>
+                    <div class="barra"></div>
+                    <div class="forca fraca"></div>
+                    <div class="parametro-senha-textos">
+                        <p>Fraca</p>
+                        <p>Média</p>
+                        <p>Forte</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="main.js"></script>
+</body>
+
+</htm

@@ -8,11 +8,11 @@ botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho(){
-    if (tamanhoSenha > 1){
+    if (tamanhoSeha > 1){
         //tamanhoSenha = tamanhoSenha - 1
         tamanhoSenha --;
     }
-    numerSenha.textContent = tamanhoSenha;
+    numeroSenha.textContent = tamanhoSenha;
 }
 
 function aumentaTamanho(){
@@ -21,4 +21,15 @@ function aumentaTamanho(){
         tamanhoSenha ++;
     }
     numeroSenha.textContent = tamanhoSenha;
+}
+
+const campoSenha = document.querySelector('#campo-senha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+function geraSenha(){
+    let senha = '';
+    for (let i = 0; i < tamanhoSenha){
+
+    }
 }
